@@ -64,6 +64,12 @@
     <Compile Include="Confirmation.Designer.cs">
       <DependentUpon>Confirmation.cs</DependentUpon>
     </Compile>
+    <Compile Include="dataGridView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="dataGridView.Designer.cs">
+      <DependentUpon>dataGridView.cs</DependentUpon>
+    </Compile>
     <Compile Include="DateAndTime.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -116,6 +122,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Confirmation.resx">
       <DependentUpon>Confirmation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="dataGridView.resx">
+      <DependentUpon>dataGridView.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="DateAndTime.resx">
       <DependentUpon>DateAndTime.cs</DependentUpon>

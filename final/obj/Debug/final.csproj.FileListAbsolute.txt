@@ -17,3 +17,4 @@ C:\Users\DELL\source\repos\final\final\obj\Debug\final.DialogBox.resources
 C:\Users\DELL\source\repos\final\final\obj\Debug\final.FlightBooking.resources
 C:\Users\DELL\source\repos\final\final\obj\Debug\final.Booking_Summary.resources
 C:\Users\DELL\source\repos\final\final\obj\Debug\final.clinicApp.resources
+C:\Users\DELL\source\repos\final\final\obj\Debug\final.dataGridView.resources
