@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Booking Summary.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Booking Summary.Designer.cs">
+      <DependentUpon>Booking Summary.cs</DependentUpon>
+    </Compile>
     <Compile Include="Confirmation.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -63,6 +69,12 @@
     </Compile>
     <Compile Include="DialogBox.Designer.cs">
       <DependentUpon>DialogBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FlightBooking.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FlightBooking.Designer.cs">
+      <DependentUpon>FlightBooking.cs</DependentUpon>
     </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
@@ -90,6 +102,9 @@
     <Compile Include="SignUp.Designer.cs">
       <DependentUpon>SignUp.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Booking Summary.resx">
+      <DependentUpon>Booking Summary.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Confirmation.resx">
       <DependentUpon>Confirmation.cs</DependentUpon>
     </EmbeddedResource>
@@ -98,6 +113,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="DialogBox.resx">
       <DependentUpon>DialogBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FlightBooking.resx">
+      <DependentUpon>FlightBooking.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>

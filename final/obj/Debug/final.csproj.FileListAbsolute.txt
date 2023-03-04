@@ -14,3 +14,5 @@ C:\Users\DELL\source\repos\final\final\obj\Debug\final.Confirmation.resources
 C:\Users\DELL\source\repos\final\final\obj\Debug\final.DateAndTime.resources
 C:\Users\DELL\source\repos\final\final\obj\Debug\final.RadioBox.resources
 C:\Users\DELL\source\repos\final\final\obj\Debug\final.DialogBox.resources
+C:\Users\DELL\source\repos\final\final\obj\Debug\final.FlightBooking.resources
+C:\Users\DELL\source\repos\final\final\obj\Debug\final.Booking_Summary.resources
