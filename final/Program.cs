@@ -16,7 +16,7 @@ namespace final
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FlightBooking());
+            Application.Run(new clinicApp());
         }
     }
 }

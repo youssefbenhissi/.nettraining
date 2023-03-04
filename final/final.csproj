@@ -52,6 +52,12 @@
     <Compile Include="Booking Summary.Designer.cs">
       <DependentUpon>Booking Summary.cs</DependentUpon>
     </Compile>
+    <Compile Include="clinicApp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="clinicApp.Designer.cs">
+      <DependentUpon>clinicApp.cs</DependentUpon>
+    </Compile>
     <Compile Include="Confirmation.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -104,6 +110,9 @@
     </Compile>
     <EmbeddedResource Include="Booking Summary.resx">
       <DependentUpon>Booking Summary.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="clinicApp.resx">
+      <DependentUpon>clinicApp.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Confirmation.resx">
       <DependentUpon>Confirmation.cs</DependentUpon>
