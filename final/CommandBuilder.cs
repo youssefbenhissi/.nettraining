@@ -31,7 +31,8 @@ namespace final
         private void button1_Click(object sender, EventArgs e)
         {
             string query = "Select * from Users";
-            dBAccess.executeDataAdapter( dtUsers, query,);
+            int changes = dBAccess.executeDataAdapter( dtUsers, query);
+
         }
     }
 }
