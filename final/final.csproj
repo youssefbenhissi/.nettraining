@@ -58,6 +58,12 @@
     <Compile Include="clinicApp.Designer.cs">
       <DependentUpon>clinicApp.cs</DependentUpon>
     </Compile>
+    <Compile Include="CommandBuilder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CommandBuilder.Designer.cs">
+      <DependentUpon>CommandBuilder.cs</DependentUpon>
+    </Compile>
     <Compile Include="Confirmation.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -76,6 +82,7 @@
     <Compile Include="DateAndTime.Designer.cs">
       <DependentUpon>DateAndTime.cs</DependentUpon>
     </Compile>
+    <Compile Include="DBAccess.cs" />
     <Compile Include="DialogBox.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -94,6 +101,12 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="HomePageDatabase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HomePageDatabase.Designer.cs">
+      <DependentUpon>HomePageDatabase.cs</DependentUpon>
+    </Compile>
     <Compile Include="LoginForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -108,17 +121,32 @@
     <Compile Include="RadioBox.Designer.cs">
       <DependentUpon>RadioBox.cs</DependentUpon>
     </Compile>
+    <Compile Include="SignInDatabse.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SignInDatabse.Designer.cs">
+      <DependentUpon>SignInDatabse.cs</DependentUpon>
+    </Compile>
     <Compile Include="SignUp.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="SignUp.Designer.cs">
       <DependentUpon>SignUp.cs</DependentUpon>
     </Compile>
+    <Compile Include="SignUpDatabse.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SignUpDatabse.Designer.cs">
+      <DependentUpon>SignUpDatabse.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Booking Summary.resx">
       <DependentUpon>Booking Summary.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="clinicApp.resx">
       <DependentUpon>clinicApp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CommandBuilder.resx">
+      <DependentUpon>CommandBuilder.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Confirmation.resx">
       <DependentUpon>Confirmation.cs</DependentUpon>
@@ -138,6 +166,9 @@
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="HomePageDatabase.resx">
+      <DependentUpon>HomePageDatabase.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="LoginForm.resx">
       <DependentUpon>LoginForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -153,8 +184,14 @@
     <EmbeddedResource Include="RadioBox.resx">
       <DependentUpon>RadioBox.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="SignInDatabse.resx">
+      <DependentUpon>SignInDatabse.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="SignUp.resx">
       <DependentUpon>SignUp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SignUpDatabse.resx">
+      <DependentUpon>SignUpDatabse.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

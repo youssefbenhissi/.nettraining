@@ -103,6 +103,8 @@ namespace final
          DialogResult dialogResult =   MessageBox.Show("Are you sure you want to finalize it?","Confirmation message", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
          if(dialogResult == DialogResult.Yes)
             {
+                dataGridView1.Enabled = false;
+                dataGridView1.Columns[0].Visible = false;
                 foreach (DataRow dr in selectedCourses.Rows)
                 {
                     finalizedCourses.ImportRow(dr);
